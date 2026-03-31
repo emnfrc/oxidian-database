@@ -1,0 +1,19 @@
+# Dependencies
+**/node_modules/
+
+# Build output
+client/dist/
+
+# SQLite database
+server/*.db
+
+# Uploads (generated)
+server/uploads/profiles/
+server/uploads/users/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,26 @@
+{
+  "user": {
+    "username": "admin",
+    "password": "$2b$10$/DfobdtwOD4Vfa6Vx2eK0O3kj0/SD9v5MbDNlkZ7aDuQQYcgch3fK"
+  },
+  "session": {
+    "secret": "osint-dashboard-secret-key-change-in-production",
+    "maxAge": 3600000
+  },
+  "users": [
+    {
+      "username": "admin",
+      "passwordHash": "$2b$10$/DfobdtwOD4Vfa6Vx2eK0O3kj0/SD9v5MbDNlkZ7aDuQQYcgch3fK",
+      "role": "admin",
+      "suspended": false,
+      "profilePhoto": "/uploads/users/admin/1774891786468-pdp.jpg"
+    },
+    {
+      "username": "test",
+      "passwordHash": "$2b$10$WGKVCuF3VZloZVNP2rwF5OoqRa2O1QXjc4ggB/eVfz6Uw5rZVAY7.",
+      "role": "standard",
+      "suspended": true,
+      "profilePhoto": "/uploads/pdp.jpg"
+    }
+  ]
+}
